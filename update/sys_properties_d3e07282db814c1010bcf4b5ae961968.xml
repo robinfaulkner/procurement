@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Procurement activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_clstu_procure_submissions_activity.fields</name>
+        <read_roles/>
+        <suffix>x_clstu_procure</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-11-12 22:02:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d3e07282db814c1010bcf4b5ae961968</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>glide.ui.x_clstu_procure_submissions_activity.fields</sys_name>
+        <sys_package display_value="Procurement" source="x_clstu_procure">59055e48dbc98c509574fd7aae96191b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">59055e48dbc98c509574fd7aae96191b</sys_scope>
+        <sys_update_name>sys_properties_d3e07282db814c1010bcf4b5ae961968</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-12-19 18:09:10</sys_updated_on>
+        <type>string</type>
+        <value>u_comments,u_approval</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=d3e07282db814c1010bcf4b5ae961968"/>
+</record_update>

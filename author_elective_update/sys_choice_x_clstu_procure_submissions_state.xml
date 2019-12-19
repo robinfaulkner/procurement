@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_clstu_procure_submissions" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New</label>
+            <language>en</language>
+            <name>x_clstu_procure_submissions</name>
+            <sequence>100</sequence>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-11-12 20:54:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf31ae46db014c1010bcf4b5ae96196b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-11-12 20:55:09</sys_updated_on>
+            <value>New</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_clstu_procure_submissions</name>
+            <sequence>200</sequence>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-11-12 20:54:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67612a06db014c1010bcf4b5ae96193a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-11-12 20:55:45</sys_updated_on>
+            <value>Approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed</label>
+            <language>en</language>
+            <name>x_clstu_procure_submissions</name>
+            <sequence>300</sequence>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-11-12 20:54:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9b712e46db014c1010bcf4b5ae961939</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-11-12 20:55:23</sys_updated_on>
+            <value>closed</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_clstu_procure_submissions</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-11-12 20:54:16</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e961ae46db014c1010bcf4b5ae961980</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="Procurement" source="x_clstu_procure">59055e48dbc98c509574fd7aae96191b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Procurement">59055e48dbc98c509574fd7aae96191b</sys_scope>
+            <sys_update_name>sys_choice_x_clstu_procure_submissions_state</sys_update_name>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-11-12 20:54:16</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

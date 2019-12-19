@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>sysapproval_approver</collection>
+        <email_layout display_value="Unsubscribe and Preferences">1410041f3b0b2200c869c2c703efc41e</email_layout>
+        <message><![CDATA[Revision Name: ${document_id.name}
+Owner:${document_id.owner}
+Author: ${document_id.author}
+Notes:${document_id.note}
+<hr/>
+The following comments were given by Approver: ${approver} about the rejection
+Comments: ${comments}
+
+<hr/>
+Click to view ${document_id.sys_class_name}:  ${document_id.URI}
+]]></message>
+        <message_html><![CDATA[<p>${mail_script:additional_approval}</p>]]></message_html>
+        <message_list/>
+        <message_text><![CDATA[Approving: ${document_id.name}]]></message_text>
+        <name>procurement.rejected</name>
+        <sms_alternate/>
+        <subject>${document_id.sys_class_name} ${document_id} has been rejected by ${approver}</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-12-12 17:23:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>dce09877db2988109574fd7aae96191a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>procurement.rejected</sys_name>
+        <sys_package display_value="Procurement" source="x_clstu_procure">59055e48dbc98c509574fd7aae96191b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">59055e48dbc98c509574fd7aae96191b</sys_scope>
+        <sys_update_name>sysevent_email_template_dce09877db2988109574fd7aae96191a</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-12-12 19:53:04</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

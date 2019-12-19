@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="approver_2" label="Approver 2" language="en" table="x_clstu_procure_submissions">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>approver_2</element>
+            <help/>
+            <hint/>
+            <label>Approver 2</label>
+            <language>en</language>
+            <name>x_clstu_procure_submissions</name>
+            <plural>Approver 2s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2019-11-11 21:04:53</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>6f3a59b9db0d881010bcf4b5ae961982</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Approver 2</sys_name>
+            <sys_package display_value="Procurement" source="x_clstu_procure">59055e48dbc98c509574fd7aae96191b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Procurement">59055e48dbc98c509574fd7aae96191b</sys_scope>
+            <sys_update_name>sys_documentation_x_clstu_procure_submissions_approver_2_en</sys_update_name>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2019-11-11 21:04:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

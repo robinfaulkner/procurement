@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>additional_approval</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+/* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+/* Optional GlideRecord */ event) {
+	
+	// Add your code here
+	
+	
+	gs.eventQueue("x_clstu_procure_submissions.approval.rejected", current.document_id, gs.getUserID(), gs.getUserName());
+	
+	
+	
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-12-12 18:21:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a20e9cbfdb6988109574fd7aae96190e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>additional_approval</sys_name>
+        <sys_package display_value="Procurement" source="x_clstu_procure">59055e48dbc98c509574fd7aae96191b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">59055e48dbc98c509574fd7aae96191b</sys_scope>
+        <sys_update_name>sys_script_email_a20e9cbfdb6988109574fd7aae96190e</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-12-12 18:46:49</sys_updated_on>
+    </sys_script_email>
+</record_update>

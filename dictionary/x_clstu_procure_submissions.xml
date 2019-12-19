@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Procurement" max_length="40" name="x_clstu_procure_submissions" type="collection">
+        <element label="Approver" max_length="32" name="approver" reference="sys_user" type="reference"/>
+        <element label="Approver 2" max_length="32" name="approver_2" reference="sys_user" type="reference"/>
+        <element label="Business Purpose" max_length="5000" name="business_purpose" type="string"/>
+        <element label="Card Number" max_length="4" name="card_number" type="string"/>
+        <element choice="1" label="Custodial Funds" max_length="40" name="custodial_funds" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="100" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="200" value="no"/>
+            </choice>
+        </element>
+        <element label="Department Name" max_length="75" name="department_name" reference="cmn_department" type="reference"/>
+        <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="100" value="New"/>
+                <element inactive_on_update="false" label="Approved" sequence="200" value="Approved"/>
+                <element inactive_on_update="false" label="Closed" sequence="300" value="closed"/>
+            </choice>
+        </element>
+        <element label="Anticipated Transaction Date" max_length="40" name="statement_date" type="glide_date"/>
+        <element choice="1" label="Submission Type" max_length="40" name="submission_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="P-Card" value="pcard"/>
+            </choice>
+        </element>
+        <element label="Total Amount" max_length="20" name="total_amount" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="requested" label="Approval" max_length="40" name="u_approval" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Requested" sequence="100" value="requested"/>
+                <element inactive_on_update="false" label="Approved" sequence="200" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="300" value="rejected"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="4000" name="u_comments" type="journal_input"/>
+        <index name="index">
+            <element name="approver"/>
+        </index>
+        <index name="index2">
+            <element name="name"/>
+        </index>
+        <index name="index3">
+            <element name="approver_2"/>
+        </index>
+    </element>
+</database>

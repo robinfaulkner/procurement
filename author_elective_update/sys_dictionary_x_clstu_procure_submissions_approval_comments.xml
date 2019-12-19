@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="approval_comments" table="x_clstu_procure_submissions">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Approval Comments</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>approval_comments</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="">journal_list</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <name>x_clstu_procure_submissions</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-12-19 16:48:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>63fb4ccedbf9c8509574fd7aae9619d2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Approval Comments</sys_name>
+        <sys_package display_value="Procurement" source="x_clstu_procure">59055e48dbc98c509574fd7aae96191b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">59055e48dbc98c509574fd7aae96191b</sys_scope>
+        <sys_update_name>sys_dictionary_x_clstu_procure_submissions_approval_comments</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-12-19 17:47:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Procurement">59055e48dbc98c509574fd7aae96191b</application>
+        <file_path/>
+        <instance_id>7be1cc064fc0a6807b9b220f0310c7d6</instance_id>
+        <instance_name>claytondev</instance_name>
+        <name>sys_dictionary_x_clstu_procure_submissions_approval_comments</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="approval_comments" table="x_clstu_procure_submissions"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Approval Comments</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>approval_comments</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="">journal_list</internal_type><mandatory>false</mandatory><max_length>4000</max_length><name>x_clstu_procure_submissions</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>rfaulkner1</sys_created_by><sys_created_on>2019-12-19 16:48:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>63fb4ccedbf9c8509574fd7aae9619d2</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Approval Comments</sys_name><sys_package display_value="Procurement" source="x_clstu_procure">59055e48dbc98c509574fd7aae96191b</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Procurement">59055e48dbc98c509574fd7aae96191b</sys_scope><sys_update_name>sys_dictionary_x_clstu_procure_submissions_approval_comments</sys_update_name><sys_updated_by>rfaulkner1</sys_updated_by><sys_updated_on>2019-12-19 17:47:51</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-393959068</payload_hash>
+        <record_name>Procurement.Approval Comments</record_name>
+        <reverted_from/>
+        <source>59055e48dbc98c509574fd7aae96191d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-12-19 17:47:51</sys_created_on>
+        <sys_id>b389500edb7dc8509574fd7aae9619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f1f45e3730000001</sys_recorded_at>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-12-19 17:47:51</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>7b89500e1d7dc85014e9f05027eec8bd</update_guid>
+        <update_guid_history>7b89500e1d7dc85014e9f05027eec8bd:-393959068,d15958ca0f7dc8503fdb3de8b783b42c:-1993382456,affb4cce4ff9c8508127fb97eda952e0:1079156255</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-12-19 18:00:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>986b89d153dc4192af76e001563651c4</sys_id>
+        <sys_metadata>63fb4ccedbf9c8509574fd7aae9619d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval Comments</sys_name>
+        <sys_package display_value="Procurement" source="x_clstu_procure">59055e48dbc98c509574fd7aae96191b</sys_package>
+        <sys_parent display_value="Procurement">b5879e08db4d8c509574fd7aae961946</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">59055e48dbc98c509574fd7aae96191b</sys_scope>
+        <sys_scope_delete display_value="">95a6ddb11aab46a09327655340625a40</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_clstu_procure_submissions_approval_comments</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_clstu_procure_submissions_approval_comments">b389500edb7dc8509574fd7aae9619be</sys_update_version>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-12-19 18:00:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Procurement">97cd1d71db4d881010bcf4b5ae961948</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Procurement Groups</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sys_user_group</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query>^type=31dd16cedbcd0c1010bcf4b5ae96192a</query>
+        <report/>
+        <roles>x_clstu_procure.admin</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-11-12 20:35:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cafc5a4edbcd0c1010bcf4b5ae96193a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Procurement Groups</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Procurement" source="x_clstu_procure">59055e48dbc98c509574fd7aae96191b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">59055e48dbc98c509574fd7aae96191b</sys_scope>
+        <sys_update_name>sys_app_module_cafc5a4edbcd0c1010bcf4b5ae96193a</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-11-12 20:41:21</sys_updated_on>
+        <timeline_page/>
+        <title>Procurement Groups</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

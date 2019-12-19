@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Allow list_edit for all fields in x_clstu_procure_submissions, for users with role x_clstu_procure.admin.</description>
+        <name>x_clstu_procure_submissions.*</name>
+        <operation display_value="list_edit">54f535270a0a0b8c007c67009ab2bdc0</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-11-15 15:03:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a9bd200bdb45c05010bcf4b5ae9619cc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_clstu_procure_submissions.*</sys_name>
+        <sys_package display_value="Procurement" source="x_clstu_procure">59055e48dbc98c509574fd7aae96191b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">59055e48dbc98c509574fd7aae96191b</sys_scope>
+        <sys_update_name>sys_security_acl_a9bd200bdb45c05010bcf4b5ae9619cc</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-11-15 15:31:11</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Procurement">59055e48dbc98c509574fd7aae96191b</application>
+        <file_path/>
+        <instance_id>7be1cc064fc0a6807b9b220f0310c7d6</instance_id>
+        <instance_name>claytondev</instance_name>
+        <name>sys_security_acl_a9bd200bdb45c05010bcf4b5ae9619cc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Allow list_edit for all fields in x_clstu_procure_submissions, for users with role x_clstu_procure.admin.</description><name>x_clstu_procure_submissions.*</name><operation display_value="list_edit">54f535270a0a0b8c007c67009ab2bdc0</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>rfaulkner1</sys_created_by><sys_created_on>2019-11-15 15:03:55</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>a9bd200bdb45c05010bcf4b5ae9619cc</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_clstu_procure_submissions.*</sys_name><sys_package display_value="Procurement" source="x_clstu_procure">59055e48dbc98c509574fd7aae96191b</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Procurement">59055e48dbc98c509574fd7aae96191b</sys_scope><sys_update_name>sys_security_acl_a9bd200bdb45c05010bcf4b5ae9619cc</sys_update_name><sys_updated_by>rfaulkner1</sys_updated_by><sys_updated_on>2019-11-15 15:31:11</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>707200910</payload_hash>
+        <record_name>x_clstu_procure_submissions.*</record_name>
+        <reverted_from/>
+        <source>59055e48dbc98c509574fd7aae96191d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-11-15 15:31:11</sys_created_on>
+        <sys_id>1a347c83db85c05010bcf4b5ae96191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e6fb08ab90000001</sys_recorded_at>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-11-15 15:31:11</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>de347c83ba85c05040bed90bb572561b</update_guid>
+        <update_guid_history>de347c83ba85c05040bed90bb572561b:707200910,63243043fc85c050b3ab205e809ea835:-1187711672,36fda80b4f45c05017b6a817c01f8d28:1769304919</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-11-15 15:33:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>286fdd16195d4b4e89ec471df2c0ce09</sys_id>
+        <sys_metadata>a9bd200bdb45c05010bcf4b5ae9619cc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_clstu_procure_submissions.*</sys_name>
+        <sys_package display_value="Procurement" source="x_clstu_procure">59055e48dbc98c509574fd7aae96191b</sys_package>
+        <sys_parent display_value="x_clstu_procure_submissions">35879e08db4d8c509574fd7aae96196d</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">59055e48dbc98c509574fd7aae96191b</sys_scope>
+        <sys_scope_delete display_value="">95a6ddb11aab46a09327655340625a40</sys_scope_delete>
+        <sys_update_name>sys_security_acl_a9bd200bdb45c05010bcf4b5ae9619cc</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_a9bd200bdb45c05010bcf4b5ae9619cc">1a347c83db85c05010bcf4b5ae96191c</sys_update_version>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-11-15 15:33:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

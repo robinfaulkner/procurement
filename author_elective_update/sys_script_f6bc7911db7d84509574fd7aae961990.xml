@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_clstu_procure_submissions</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Update Procurement Comments</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[var apv = new GlideRecord('sysapproval_approver');
+apv.addQuery('sysapproval',current.sys_id);
+apv.addQuery('comments','!=',''); // add this to only find approvals that have comments on them
+apv.query();
+
+while (apv.next()) { // change if to while so it will go through all approvals with comments
+x_clstu_procure_submissions.u_comments += "\n" + apv.state.getDisplayValue() + " - Comments from " + apv.approver.name + " for " + apv.wf_activity.name + ":\n" + apv.comments.getJournalEntry(-1); // add approver name here
+}
+
+
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-12-17 17:05:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f6bc7911db7d84509574fd7aae961990</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>Update Procurement Comments</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Procurement" source="x_clstu_procure">59055e48dbc98c509574fd7aae96191b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">59055e48dbc98c509574fd7aae96191b</sys_scope>
+        <sys_update_name>sys_script_f6bc7911db7d84509574fd7aae961990</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-12-18 18:23:17</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=f6bc7911db7d84509574fd7aae961990"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Procurement">59055e48dbc98c509574fd7aae96191b</application>
+        <file_path/>
+        <instance_id>7be1cc064fc0a6807b9b220f0310c7d6</instance_id>
+        <instance_name>claytondev</instance_name>
+        <name>sys_script_f6bc7911db7d84509574fd7aae961990</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_clstu_procure_submissions&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Update Procurement Comments&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[var apv = new GlideRecord('sysapproval_approver');
+apv.addQuery('sysapproval',current.sys_id);
+apv.addQuery('comments','!=',''); // add this to only find approvals that have comments on them
+apv.query();
+
+while (apv.next()) { // change if to while so it will go through all approvals with comments
+x_clstu_procure_submissions.u_comments += "\n" + apv.state.getDisplayValue() + " - Comments from " + apv.approver.name + " for " + apv.wf_activity.name + ":\n" + apv.comments.getJournalEntry(-1); // add approver name here
+}
+
+
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;rfaulkner1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-17 17:05:42&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f6bc7911db7d84509574fd7aae961990&lt;/sys_id&gt;&lt;sys_mod_count&gt;29&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update Procurement Comments&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Procurement" source="x_clstu_procure"&gt;59055e48dbc98c509574fd7aae96191b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Procurement"&gt;59055e48dbc98c509574fd7aae96191b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_f6bc7911db7d84509574fd7aae961990&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;rfaulkner1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-18 18:23:17&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f6bc7911db7d84509574fd7aae961990"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>842534490</payload_hash>
+        <record_name>Update Procurement Comments</record_name>
+        <reverted_from/>
+        <source>59055e48dbc98c509574fd7aae96191d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-12-18 18:23:17</sys_created_on>
+        <sys_id>9518d361dbf548509574fd7aae9619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f1a3ff8f80000001</sys_recorded_at>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-12-18 18:23:17</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>d918d36101f54850e7fb12395dfe42bc</update_guid>
+        <update_guid_history>d918d36101f54850e7fb12395dfe42bc:842534490,d7471bed0db548504c03a73ddf603684:-401060847,8256d3e973b5485058723a0e963595e5:-586449864,f6c8a6a9a4714850ba5ac20fe48924d7:516653783,2b062a659271485044379df19c2fabd4:-1803378350,c381ee2d7a3148500df935eae09fb5cb:-909523907,42fdde61853148503d65f6cb93b3c2d7:-1064470773,034736591935c4508dc8f025136aa784:-528639621,e337f6d58535c450b3b62773d93ec6bc:1129241583,e785be554035c4504f27134009a29b49:1869513415,727532551835c450061edd5dc6fa1b3a:1796756852,0422fa1d6df1c450928120ac0e8dd869:156276012,e2feead55ff1c4504c7bba63d1f990ac:809302659,ce2e2a916af1c450636019758e176a6c:-76441102,ff0e6ad180f1c4508ad0a165a91a0efa:1712175067,217d2a9124f1c450da06a2b20f91ee5a:-198055841,aa2b2e5d81b1c45042936ea1c0fb63c8:1475435660,f6692e5926b1c4509e7173868a32370d:-168930164,0498e2193bb1c4505e6da660faa246e5:1776425045,0a686a9581b1c450a38ec2a6a54ebb7c:-7060939,2a87e29506b1c450db39b896aa3337f8:-1138795855,20d5aeddec71c450ca12661059aeff5d:115954656,05e1e6597071c45047ddd1cd50dc1fb1:1101020446,8e912659ec71c45049dbc86f55393040:-766180949,19702a9d9431c450c248849238bcf942:766432478,757502d11abd8450333115a8db07d777:580565539,ba53465d237d845070c9ebdc530af879:588630548,1b22821d6f7d845067787aac5ec500d0:-1883013506,b09e7515197d84505be0f41a2121ebc1:-641070835,7abc79114d7d84502d81fbfeebf63793:-96753227</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-12-18 20:21:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>54ee509c4cdc4723be3a3003fd4b2051</sys_id>
+        <sys_metadata>f6bc7911db7d84509574fd7aae961990</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Procurement Comments</sys_name>
+        <sys_package display_value="Procurement" source="x_clstu_procure">59055e48dbc98c509574fd7aae96191b</sys_package>
+        <sys_parent display_value="Procurement">b5879e08db4d8c509574fd7aae961946</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">59055e48dbc98c509574fd7aae96191b</sys_scope>
+        <sys_scope_delete display_value="">95a6ddb11aab46a09327655340625a40</sys_scope_delete>
+        <sys_update_name>sys_script_f6bc7911db7d84509574fd7aae961990</sys_update_name>
+        <sys_update_version display_value="sys_script_f6bc7911db7d84509574fd7aae961990">9518d361dbf548509574fd7aae9619bd</sys_update_version>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-12-18 20:21:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

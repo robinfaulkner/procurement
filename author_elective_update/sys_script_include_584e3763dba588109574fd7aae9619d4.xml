@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_clstu_procure.MyDateTimeAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>MyDateTimeAjax</name>
+        <script><![CDATA[var MyDateTimeAjax = Class.create();
+
+
+MyDateTimeAjax.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+
+  nowDate: function () {
+
+
+  return gs.now();
+
+
+  },
+
+
+
+  nowDateTime: function () {
+
+
+  return gs.nowDateTime();
+
+
+  },
+
+
+  type: 'MyDateTimeAjax'
+
+
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-12-12 16:03:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>584e3763dba588109574fd7aae9619d4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>MyDateTimeAjax</sys_name>
+        <sys_package display_value="Procurement" source="x_clstu_procure">59055e48dbc98c509574fd7aae96191b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">59055e48dbc98c509574fd7aae96191b</sys_scope>
+        <sys_update_name>sys_script_include_584e3763dba588109574fd7aae9619d4</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-12-12 16:14:25</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Procurement">59055e48dbc98c509574fd7aae96191b</application>
+        <file_path/>
+        <instance_id>7be1cc064fc0a6807b9b220f0310c7d6</instance_id>
+        <instance_name>claytondev</instance_name>
+        <name>sys_script_include_584e3763dba588109574fd7aae9619d4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_clstu_procure.MyDateTimeAjax&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;MyDateTimeAjax&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var MyDateTimeAjax = Class.create();
+
+
+MyDateTimeAjax.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+
+  nowDate: function () {
+
+
+  return gs.now();
+
+
+  },
+
+
+
+  nowDateTime: function () {
+
+
+  return gs.nowDateTime();
+
+
+  },
+
+
+  type: 'MyDateTimeAjax'
+
+
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;rfaulkner1&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-12 16:03:16&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;584e3763dba588109574fd7aae9619d4&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;MyDateTimeAjax&lt;/sys_name&gt;&lt;sys_package display_value="Procurement" source="x_clstu_procure"&gt;59055e48dbc98c509574fd7aae96191b&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Procurement"&gt;59055e48dbc98c509574fd7aae96191b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_584e3763dba588109574fd7aae9619d4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;rfaulkner1&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-12 16:14:25&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1475396279</payload_hash>
+        <record_name>MyDateTimeAjax</record_name>
+        <reverted_from/>
+        <source>59055e48dbc98c509574fd7aae96191d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-12-12 16:14:25</sys_created_on>
+        <sys_id>c7014437dba588109574fd7aae9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16efae3d5ec0000001</sys_recorded_at>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-12-12 16:14:25</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>8f0144373ea58810632bad04d3c233f4</update_guid>
+        <update_guid_history>8f0144373ea58810632bad04d3c233f4:-1475396279,5aef7fa3aaa58810e3b7e27d513a2231:-1553023457,27cff32773a58810738eae0b9ebab82d:76927782,2f7e3763bea588107a7f04e3e5bbb0fa:-1553023457</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2019-12-12 16:14:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>0965b5015985486d9ffb81a0449a7d01</sys_id>
+        <sys_metadata>584e3763dba588109574fd7aae9619d4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyDateTimeAjax</sys_name>
+        <sys_package display_value="Procurement" source="x_clstu_procure">59055e48dbc98c509574fd7aae96191b</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Procurement">59055e48dbc98c509574fd7aae96191b</sys_scope>
+        <sys_scope_delete display_value="">95a6ddb11aab46a09327655340625a40</sys_scope_delete>
+        <sys_update_name>sys_script_include_584e3763dba588109574fd7aae9619d4</sys_update_name>
+        <sys_update_version display_value="sys_script_include_584e3763dba588109574fd7aae9619d4">c7014437dba588109574fd7aae9619f5</sys_update_version>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2019-12-12 16:14:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
